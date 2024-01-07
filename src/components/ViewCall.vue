@@ -1,18 +1,18 @@
 <template>
-    <div class="md:flex grid">
-        <div class="flex h-[1000px] w-[461px]" id="screenshoot">
-            <img src="../assets/ss-call.jpeg" alt="Vue logo" class="absolute h-[1000px] w-[461px] object-scale-down" />
+    <div class="md:flex grid h-screen">
+        <div class="flex h-[1280px] w-[590px]  bg-[url('@/assets/ss-call.jpeg')]" id="screenshoot">
+            <!-- <img src="../assets/ss-call.jpeg" alt="Vue logo" class="absolute h-[1000px] w-[461px] object-scale-down" /> -->
             <div class="z-50 relative">
-                <div class="pt-1">
-                    <span class=" text-white text-center pl-[40px]">{{ data.jam }}</span>
+                <div class="pt-[9px]">
+                    <span class=" text-white text-center pl-[55px]">{{ data.jam }}</span>
                 </div>
-                <div class="pt-[85px] flex justify-center w-[460px]">
+                <div class="pt-[150px] flex justify-center w-[590px]">
                     <div class="grid justify-items-center space-y-5">
                         <span class="text-white text-4xl">{{ data.namaKontak }}</span>
                         <span class=" text-white/50 text-2xl">{{ data.waktu }}</span>
-                        <div class="pt-[115px]">
+                        <div class="pt-[140px]">
                             <img :src="data.uploadedImage" alt=""
-                                class="rounded-full h-[230px] w-[230px] bg-white object-cover" />
+                                class="rounded-full h-[300px] w-[300px] bg-white object-cover" />
                         </div>
                     </div>
                 </div>
