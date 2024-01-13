@@ -6,7 +6,10 @@ module.exports = {
       colors: {
         chatLeft: '#363638',
         chatRight: '#005045',
-        secondary: '#5C9A95'
+        primary: '#776B5D',
+        secondary: '#B0A695',
+        tertiary: '#EBE3D5',
+        accent: '#F3EEEA',
       },
     },
   },
