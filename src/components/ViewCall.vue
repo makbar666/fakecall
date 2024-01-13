@@ -3,8 +3,8 @@
         <div class=" p-10 space-y-3 z-50 relative">
             <div class="grid md:grid-cols-5 space-y-2 md:space-y-0">
                 <small class="md:col-span-2 grid content-center">Jam</small>
-                <VueDatePicker class="md:col-span-3" v-model="data.jam2" time-picker placeholder="Select Time"
-                    format="HH:mm" preview-format="HH:mm" :use12h="false" />
+                <VueDatePicker class="md:col-span-3" v-model="data.jam2" time-picker placeholder="Pilih Jam" format="HH:mm"
+                    preview-format="HH:mm" :use12h="false" />
             </div>
             <div class="grid md:grid-cols-5 space-y-2 md:space-y-0">
                 <small class="md:col-span-2 grid content-center">Nama Kontak</small>
@@ -12,7 +12,7 @@
             </div>
             <div class="grid md:grid-cols-5 space-y-2 md:space-y-0">
                 <small class="md:col-span-2 grid content-center">Waktu</small>
-                <VueDatePicker class="md:col-span-3" v-model="data.waktu2" time-picker placeholder="Select Time"
+                <VueDatePicker class="md:col-span-3" v-model="data.waktu2" time-picker placeholder="Pilih Waktu"
                     format="HH:mm" preview-format="HH:mm" :use12h="false" />
             </div>
             <div class="grid md:grid-cols-5 space-y-2 md:space-y-0">
@@ -142,3 +142,9 @@ export default {
     }
 }
 </script>
+
+<style>
+.dp__action_select {
+    @apply bg-primary px-2
+}
+</style>
