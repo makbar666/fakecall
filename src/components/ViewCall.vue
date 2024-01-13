@@ -27,7 +27,7 @@
                 </button>
             </div>
         </div>
-        <div class="scale-90 ">
+        <div class="">
             <div class="flex h-[1280px] w-[590px]  bg-[url('@/assets/ss-call.jpeg')]" id="screenshoot">
                 <div class="z-50 relative">
                     <div class="pt-[9px]">
@@ -37,9 +37,9 @@
                         <div class="grid justify-items-center space-y-5">
                             <span class="text-white text-4xl">{{ data.namaKontak }}</span>
                             <span class=" text-white/50 text-2xl">{{ data.waktu }}</span>
-                            <div class="pt-[140px]  w-[300px]">
+                            <div class="pt-[140px] ">
                                 <img :src="data.uploadedImage" alt=""
-                                    class="rounded-full  bg-white h-[300px] object-cover" />
+                                    class="rounded-full  bg-white h-[300px] w-[300px] object-cover" />
                             </div>
                         </div>
                     </div>
